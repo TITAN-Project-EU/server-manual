@@ -6,3 +6,11 @@ Knot is a complete environment for doing actual work on Kubernetes. It includes 
 The Knot installation includes JupyterHub, Argo Workflows, Harbor, and Grafana/Prometheus, all accessible through the dashboard. Behind the scenes, other popular tools are automatically installed to help with the integration, such as cert-manager, the NGINX Ingress Controller, Vouch Proxy, and the NFS CSI Driver. Knot also uses Helm charts internally for implementing service templates.
 
 Check out the documentation (also available in the Knot dashboard under "Documentation" at the user menu), which includes installation instructions, a user guide, and technical notes on how Knot works internally. The Knot dashboard is written in Python using Django.
+
+---
+### Sign up and login
+ When you visit the dashboard service with your browser https://titan-era-project.eu/ , you are greeted with the login screen.
+ 
+ ![log in](images/login.JPG?raw=true "CRETA")
+
+To create an account, select the "Sign up" option on the main screen and fill in a username, password, and contact email.
