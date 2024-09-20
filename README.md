@@ -63,11 +63,17 @@ conda env create -f environment.yml #create the same environment
 conda env list #Verify the Installation
 conda activate <your_environment_name> 
 
+
 ```
 
+4.  Connect Anaconda environment with Juoyter Kernel 
+
+```python 
+python -m ipykernel install --user --name=<env_name> --display-name "<env_display_name>"
 
 
+```
 
-
+---
 
 
