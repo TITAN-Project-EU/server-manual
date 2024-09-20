@@ -95,7 +95,7 @@ python -m ipykernel install --user --name=<your_environment_name> --display-name
 ```
 ### FAQ
 
-#### Sanity check: Are GPUs visible? <br>
+#### Sanity check: Are GPUs visible
 Open a ```File>>New>>Terminal``` and execute the below command 
 ```python 
 nvidia-smi
@@ -104,7 +104,7 @@ nvidia-smi
 The results of the command should show that the server  contains  ```4 X NVIDIA A100 40GB```.
 ![nvidia-smi results](images/smi.png?raw=true "CRETA")
 
-#### Can i use them?
+#### Can i use them
 Check the usability of GPUs  with ```Tensorflow``` or ```Pytorch```.
 
 ##### Tensorflow check
@@ -143,7 +143,7 @@ else:
 Expected Output: <br>
 
 ![nvidia-smi results](images/pytorch-ckeck.png?raw=true "CRETA")
-#### Libraries Installation <br>
+#### Libraries Installation
    **Always** prefer `conda install` commands instead of `pip install`. All libraries installed this way on your conda environment  will be available after the activation. <br>
 
    Install library with `conda`. 
