@@ -71,7 +71,6 @@ conda activate <your_environment_name>
 ```python 
 python -m ipykernel install --user --name=<your_environment_name> --display-name "<env_display_name>"
 
-
 ```
 ### FAQ
 
@@ -82,11 +81,28 @@ nvidia-smi
 
 ```
 The results of the command should show that the server  contains  ```4 X NVIDIA A100 40GB```.
-
+![nvidia-smi results](images/smi.png?raw=true "CRETA")
 
 2. Can i use them?
+Check the usability of GPUs  with ```Tensorflow``` or ```Pytorch```.
 
+2.1 Tensorflow check
+    
+```python 
+import tensorflow as tf
 
+# List available GPUs
+gpus = tf.config.list_physical_devices('GPU')
+
+if gpus:
+    print(f"TensorFlow detected {len(gpus)} GPU(s):")
+    for gpu in gpus:
+        print(gpu)
+else:
+    print("No GPU detected by TensorFlow.")
+
+```
+ 2.2 Pytorch check
 
 
 ### Acknowledgements
