@@ -73,24 +73,26 @@ python -m ipykernel install --user --name=<your_environment_name> --display-name
 
 
 ```
-### Acknowledgements
-Special thanks to [Dr. Antony Chazapis ](https://github.com/chazapis) for developing Knot and providing continuous support.
-
----
-
 ### FAQ
 
-1. Sanity check: Are GPUs visible?
+1. Sanity check: Are GPUs visible? <br>
 Open a ```File>>New>>Terminal``` and execute the below command 
 ```python 
 nvidia-smi
 
 ```
-
-
+The results of the command should show that the server  contains  ```4 X NVIDIA A100 40GB```.
 
 
 2. Can i use them?
+
+
+
+
+### Acknowledgements
+Special thanks to [Dr. Antony Chazapis ](https://github.com/chazapis) for developing Knot and providing continuous support.
+
+---
 
 
 
