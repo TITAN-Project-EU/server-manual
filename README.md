@@ -1,4 +1,22 @@
-# server-manual
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Sign Up and Login](#sign-up-and-login)
+3. [Jupyter Notebook](#jupyter-notebook)
+4. [Upload Data](#upload-data)
+5. [Transfer Anaconda Environment on the Server](#transfer-anaconda-environment-on-the-server)
+6. [FAQ](#faq)
+   - [Sanity Check: Are GPUs Visible?](#sanity-check-are-gpus-visible)
+   - [Can I Use the GPUs?](#can-i-use-the-gpus)
+     - [TensorFlow Check](#tensorflow-check)
+     - [PyTorch Check](#pytorch-check)
+7. [Libraries Installation](#libraries-installation)
+8. [Acknowledgements](#acknowledgements)
+
+---
+
+## Introduction
 TITAN-Server utilize the Knot application, developed by CARV-ICS-FORTH (https://github.com/CARV-ICS-FORTH/knot) 
 
 Knot is a complete environment for doing actual work on Kubernetes. It includes a complete set of web-based tools to help you unleash your productivity, without ever needing to use the command line. At its core, the Knot dashboard supplies the landing page for users, allowing them to launch notebooks and other services, design workflows, and specify parameters related to execution through a user-friendly interface. The dashboard manages users, wires up relevant storage to the appropriate paths inside running containers, securely provisions multiple services under one externally-accessible HTTPS endpoint, while keeping them isolated in per-user namespaces at the Kubernetes level, and provides an identity service for OAuth 2.0/OIDC-compatible applications.
@@ -8,7 +26,10 @@ The Knot installation includes JupyterHub, Argo Workflows, Harbor, and Grafana/P
 Check out the documentation (also available in the Knot dashboard under "Documentation" at the user menu), which includes installation instructions, a user guide, and technical notes on how Knot works internally. The Knot dashboard is written in Python using Django.
 
 ---
-### Sign up and login
+
+
+
+## Sign up and login
  When you visit the dashboard service with your browser https://titan-era-project.eu/ , you are greeted with the login screen.
  
  ![log in](images/login.JPG?raw=true "CRETA")
