@@ -143,8 +143,6 @@ else:
 Expected Output: <br>
 
 ![nvidia-smi results](images/pytorch-ckeck.png?raw=true "CRETA")
-
-
 3. Libraries Installation <br>
    **Always** prefer `conda install` commands instead of `pip install`. All libraries installed this way on your conda environment  will be available after the activation. <br>
 
