@@ -1,4 +1,4 @@
-# server-man
+# server-manual
 TITAN-Server utilize the Knot application, developed by CARV-ICS-FORTH (https://github.com/CARV-ICS-FORTH/knot) 
 
 Knot is a complete environment for doing actual work on Kubernetes. It includes a complete set of web-based tools to help you unleash your productivity, without ever needing to use the command line. At its core, the Knot dashboard supplies the landing page for users, allowing them to launch notebooks and other services, design workflows, and specify parameters related to execution through a user-friendly interface. The dashboard manages users, wires up relevant storage to the appropriate paths inside running containers, securely provisions multiple services under one externally-accessible HTTPS endpoint, while keeping them isolated in per-user namespaces at the Kubernetes level, and provides an identity service for OAuth 2.0/OIDC-compatible applications.
@@ -26,8 +26,24 @@ Selecting "Notebooks" from the menu on the left will redirect you to JupyterHub.
 ---
 
 ### Upload Data
-There are ```Persistent Volumes``` that users can use to store datasets ```python /private``` and ```python /shared```
+There are ```Persistent Volumes``` that users can use to store datasets ```/private``` and ```/shared```. 
+In order to upload files and folders follow the steps below:
 
+1. Choose ```Services``` from the left menu and the ```New Servcie```
+ ![log in](images/services.JPG?raw=true "CRETA")
+
+2. Select ```filebrowser``` from the dropdown menu
+![log in](images/filebroaser.JPG?raw=true "CRETA")
+
+
+3. Connect file browser with ```private``` folder.
+![log in](images/filebr2.JPG?raw=true "CRETA")
+
+4.After a while the service will be created. 
+![log in](/images/fbcreated.JPG?raw=true "CRETA")
+
+5. Use the service to upload your data 
+![log in](images/fbfull.JPG?raw=true "CRETA")
 
 ---
 
