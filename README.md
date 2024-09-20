@@ -123,6 +123,28 @@ Expected Output: <br>
 
 ![nvidia-smi results](images/pytorch-ckeck.png?raw=true "CRETA")
 
+
+3. Libraries Installation <br>
+   **Always** prefer `conda install` commands instead of `pip install`. All libraries installed this way on your conda environment  will be available after the activation. <br>
+
+   Install library with `conda`. 
+   
+```python
+conda install <library-name>
+```
+    
+Specifying a Channel (like `conda-forge`)
+```python
+conda install -c conda-forge numpy
+```
+Specifying Version 
+```python
+conda install numpy=1.21
+```
+
+
+
+    
 ### Acknowledgements
 Special thanks to [Dr. Antony Chazapis ](https://github.com/chazapis) for developing Knot and providing continuous support.
 
