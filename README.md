@@ -102,8 +102,24 @@ else:
     print("No GPU detected by TensorFlow.")
 
 ```
- 2.2 Pytorch check
+Expected Output:
+![nvidia-smi results](images/tensorflow-check.png?raw=true "CRETA")
 
+ 2.2 Pytorch check
+```python
+import torch
+
+# Check if CUDA is available
+if torch.cuda.is_available():
+    num_gpus = torch.cuda.device_count()
+    print(f"PyTorch detected {num_gpus} GPU(s):")
+    for i in range(num_gpus):
+        print(f"GPU {i}: {torch.cuda.get_device_name(i)}")
+else:
+    print("No GPU detected by PyTorch.")
+
+```
+![nvidia-smi results](images/pytorch-check.png?raw=true "CRETA")
 
 ### Acknowledgements
 Special thanks to [Dr. Antony Chazapis ](https://github.com/chazapis) for developing Knot and providing continuous support.
