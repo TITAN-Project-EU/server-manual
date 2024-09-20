@@ -78,4 +78,23 @@ Special thanks to [Dr. Antony Chazapis ](https://github.com/chazapis) for develo
 
 ---
 
+### FAQ
+
+1. Sanity check: Are GPUs visible?
+Open a ```File>>New>>Terminal``` and execute the below command 
+```python 
+nvidia-smi
+
+```
+
+
+
+
+2. Can i use them?
+
+
+
+
+
+
 
