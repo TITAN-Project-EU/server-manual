@@ -73,6 +73,8 @@ python -m ipykernel install --user --name=<env_name> --display-name "<env_displa
 
 
 ```
+### Acknowledgements
+Special thanks to [Dr. Antony Chazapis ](https://github.com/chazapis) for developing Knot and providing continuous support.
 
 ---
 
