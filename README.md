@@ -17,3 +17,17 @@ To create an account, select the "Sign up" option on the main screen and fill in
  ![log in](images/login.JPG?raw=true "CRETA")
 
  Once the account is activated by an administrator, login using your username and password. You can change your password when logged in by clicking on the user icon at the top-right of the screen and selecting "Change password" from the menu. The menu also provides options to switch between profiles (if you are a member of one or more teams), view previous messages reported, access this documentation, and logout. If you ever forget your password, please ask an administrator to reset it.
+ 
+ ---
+ 
+### Jupyter Notebook
+Selecting "Notebooks" from the menu on the left will redirect you to JupyterHub. JupyterHub will automatically launch a new server instance for you, if one is not already running. Your notebooks are saved in /private/notebooks, so you can also access them as files from the dashboard. You can stop your server instance by clicking on the "Control Panel" button on the top-right of the screen.
+
+---
+
+### Upload Data
+There are ```Persistent Volumes``` that users can use to store datasets ```python /private``` and ```python /shared```
+
+
+---
+
