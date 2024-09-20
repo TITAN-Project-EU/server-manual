@@ -29,7 +29,7 @@ Selecting "Notebooks" from the menu on the left will redirect you to JupyterHub.
 There are ```Persistent Volumes``` that users can use to store datasets ```/private``` and ```/shared```. 
 In order to upload files and folders follow the steps below:
 
-1. Choose ```Services``` from the left menu and the ```New Servcie```
+1. Choose ```Services``` from the left menu and the ```New Servcie``` <br>
  ![log in](images/services.JPG?raw=true "CRETA")
 
 2. Select ```filebrowser``` from the dropdown menu
@@ -46,4 +46,28 @@ In order to upload files and folders follow the steps below:
 ![log in](images/fbfull.JPG?raw=true "CRETA")
 
 ---
+### Transfer Anaconda environment on the Server
+1.  Export Conda Environment on the Source Machine
+```python 
+conda activate <your_environment_name>
+conda env export > environment.yml
+
+```
+
+2.  Upload ```YAML``` file on server
+Upload the ```environment.yml``` with ```filebrowser```.
+
+3.  Create the Environment on the Server
+```python 
+conda env create -f environment.yml #create the same environment
+conda env list #Verify the Installation
+conda activate <your_environment_name> 
+
+```
+
+
+
+
+
+
 
