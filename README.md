@@ -102,8 +102,8 @@ else:
     print("No GPU detected by TensorFlow.")
 
 ```
-Expected Output:
-![nvidia-smi results](images/tensorflow-check.png?raw=true "CRETA")
+Expected Output: <br>
+![nvidia-smi results](images/tf-check.png?raw=true "CRETA")
 
  2.2 Pytorch check
 ```python
@@ -119,7 +119,9 @@ else:
     print("No GPU detected by PyTorch.")
 
 ```
-![nvidia-smi results](images/pytorch-check.png?raw=true "CRETA")
+Expected Output: <br>
+
+![nvidia-smi results](images/pytorch-ckeck.png?raw=true "CRETA")
 
 ### Acknowledgements
 Special thanks to [Dr. Antony Chazapis ](https://github.com/chazapis) for developing Knot and providing continuous support.
