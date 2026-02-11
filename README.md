@@ -17,8 +17,7 @@
 ---
 ## ⚠️ Important — CPU Thread Limits
 --- > [!WARNING] > **You MUST limit CPU threads before importing NumPy / PyTorch / TensorFlow.** > Otherwise, the limits may not take effect and performance can degrade. ## Option A — Inside Python (notebook or .py file) ⚠️ Place this **at the very top** of your script or notebook cell, **before any imports**.
-`` 
-python
+``python
 import os
 
 os.environ["OMP_NUM_THREADS"] = "1"
